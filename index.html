@@ -1,0 +1,204 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cevicheria Agallas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="marquee-container">
+            <marquee direction="left">Nuestro Horario de atención son de Martes a Domingo de 10:00 AM a 4:00 PM | Estamos ubicados en Prolongación Huayallco #196 - Huánuco, referencia La Quinta</marquee>
+        </div>
+        <div class="info-container d-none d-lg-flex flex-row align-items-center justify-content-around">
+            <div class="mb-2 mb-md-0">
+                <img src="img/logo.png" alt="Logo" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center mb-2 mb-md-0">
+                <i class="fas fa-phone fa-2x me-2"></i>
+                <div class="info-text">
+                    <p class="mb-0">Delivery disponible</p>
+                    <p class="mb-0">+51 980 927 995</p>
+                </div>
+                <div class="ms-4 d-flex align-items-center">
+                    <i class="fas fa-user fa-lg"></i>
+                    <p class="mb-0 ms-3 ">Ingresar / Crear cuenta</p>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light desktop-navbar">
+            <div class="container">
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand d-lg-none" href="#">
+                    <img src="img/logo.png" alt="Logo" class="img-fluid" style="height: 40px;">
+                </a>
+                <div class="d-lg-none d-flex align-items-center flex-nowrap">
+                    <i class="fas fa-phone fa-2x me-2"></i>
+                    <a href="#" class="btn btn-light ms-3"><i class="fas fa-user"></i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-utensils icon-menu"></i> Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-box icon-combos"></i> Combos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-tags icon-promociones"></i> Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-fish icon-ceviches"></i> Ceviches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-gift icon-beneficios"></i> Beneficios</a>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/51980927995" class="btn btn-success"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <img src="img/file.png" alt="Logo" class="img-fluid" style="height: 40px;">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-utensils icon-menu"></i> Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-box icon-combos"></i> Combos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-tags icon-promociones"></i> Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-fish icon-ceviches"></i> Ceviches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-gift icon-beneficios"></i> Beneficios</a>
+                    </li>
+                </ul>
+                <a href="https://wa.me/51980927995" class="btn btn-success mt-3"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+            </div>
+        </div>
+         <!-- Carrusel Principal -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/1.jpg" alt="Combo Venom">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Trio Marino</h5>
+                    <p>Disfruta de lo mejor de nuestra platos marinos.</p>
+                    <a href="#" class="boton-carrusel btn">Comprar aquí</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/1.jpg" alt="Combo Venom">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+     <!-- Sección del Menú -->
+  <div class="container menu-section">
+    <h2 class="titulo-menu text-center mb-4 mt-4">Conoce Nuestro Menú | Agallas</h2>
+    <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card menu-card">
+                <img src="/img/categorias/lechedetigre.png" class="card-img-top" alt="Promo Futbolera">
+                <div class="card-body">
+                    <h5 class="card-title">Leches</h5>
+                    <a href="#" class="btn btn-primary">Ver todos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card menu-card">
+                <img src="/img/categorias/frialdad.png" class="card-img-top" alt="Combo Clásico">
+                <div class="card-body">
+                    <h5 class="card-title">Frialdad</h5>
+                    <a href="#" class="btn btn-primary">Ver todos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card menu-card">
+                <img src="/img/categorias/causas.png" class="card-img-top" alt="Hamburguesa Doble">
+                <div class="card-body">
+                    <h5 class="card-title">Festival de causas</h5>
+                    <a href="#" class="btn btn-primary">Ver todos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card menu-card">
+                <img src="/img/categorias/lechedetigre.png" class="card-img-top" alt="Promo Futbolera">
+                <div class="card-body">
+                    <h5 class="card-title">Leche</h5>
+                    <a href="#" class="btn btn-primary">Ver todos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card menu-card">
+                <img src="/img/categorias/lechedetigre.png" class="card-img-top" alt="Combo Clásico">
+                <div class="card-body">
+                    <h5 class="card-title">Frialdad</h5>
+                    <a href="#" class="btn btn-primary">Ver todos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card menu-card">
+                <img src="/img/categorias/frialdad.png" class="card-img-top" alt="Hamburguesa Doble">
+                <div class="card-body">
+                    <h5 class="card-title">Festival de causas</h5>
+                    <a href="#" class="btn btn-primary">Ver todos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pie de Página -->
+<footer>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Social Agallas</h5>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-md-4">
+                <h5>Enlaces útiles</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white"> Ubicación</a></li>
+                    <li><a href="#" class="text-white">Zonas de Reparto</a></li>
+                    <li><a href="#" class="text-white">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Formas de Pago</h5>
+                <img src="/img/pagos.png" alt="Formas de Pago 150x50">
+            </div>
+        </div>
+        <p class="mt-3">&copy; 2024 Agallas. Todos los derechos reservados.</p>
+    </div>
+</footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
